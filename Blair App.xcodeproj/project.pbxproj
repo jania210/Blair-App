@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF4183A52B597E1C00B6C38D /* Blair_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4183A42B597E1C00B6C38D /* Blair_AppApp.swift */; };
+		CF4183A72B597E1C00B6C38D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4183A62B597E1C00B6C38D /* ContentView.swift */; };
+		CF4183A92B597E1E00B6C38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4183A82B597E1E00B6C38D /* Assets.xcassets */; };
+		CF4183AD2B597E1E00B6C38D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4183AC2B597E1E00B6C38D /* Preview Assets.xcassets */; };
+		CF4183B72B597E1E00B6C38D /* Blair_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4183B62B597E1E00B6C38D /* Blair_AppTests.swift */; };
+		CF4183C12B597E1E00B6C38D /* Blair_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4183C02B597E1E00B6C38D /* Blair_AppUITests.swift */; };
+		CF4183C32B597E1E00B6C38D /* Blair_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4183C22B597E1E00B6C38D /* Blair_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF4183B32B597E1E00B6C38D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4183992B597E1C00B6C38D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4183A02B597E1C00B6C38D;
+			remoteInfo = "Blair App";
+		};
+		CF4183BD2B597E1E00B6C38D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4183992B597E1C00B6C38D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4183A02B597E1C00B6C38D;
+			remoteInfo = "Blair App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF4183A12B597E1C00B6C38D /* Blair App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blair App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4183A42B597E1C00B6C38D /* Blair_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blair_AppApp.swift; sourceTree = "<group>"; };
+		CF4183A62B597E1C00B6C38D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF4183A82B597E1E00B6C38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF4183AA2B597E1E00B6C38D /* Blair_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Blair_App.entitlements; sourceTree = "<group>"; };
+		CF4183AC2B597E1E00B6C38D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF4183B22B597E1E00B6C38D /* Blair AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blair AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4183B62B597E1E00B6C38D /* Blair_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blair_AppTests.swift; sourceTree = "<group>"; };
+		CF4183BC2B597E1E00B6C38D /* Blair AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blair AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4183C02B597E1E00B6C38D /* Blair_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blair_AppUITests.swift; sourceTree = "<group>"; };
+		CF4183C22B597E1E00B6C38D /* Blair_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blair_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF41839E2B597E1C00B6C38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4183AF2B597E1E00B6C38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4183B92B597E1E00B6C38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF4183982B597E1C00B6C38D = {
+			isa = PBXGroup;
+			children = (
+				CF4183A32B597E1C00B6C38D /* Blair App */,
+				CF4183B52B597E1E00B6C38D /* Blair AppTests */,
+				CF4183BF2B597E1E00B6C38D /* Blair AppUITests */,
+				CF4183A22B597E1C00B6C38D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4183A22B597E1C00B6C38D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4183A12B597E1C00B6C38D /* Blair App.app */,
+				CF4183B22B597E1E00B6C38D /* Blair AppTests.xctest */,
+				CF4183BC2B597E1E00B6C38D /* Blair AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4183A32B597E1C00B6C38D /* Blair App */ = {
+			isa = PBXGroup;
+			children = (
+				CF4183A42B597E1C00B6C38D /* Blair_AppApp.swift */,
+				CF4183A62B597E1C00B6C38D /* ContentView.swift */,
+				CF4183A82B597E1E00B6C38D /* Assets.xcassets */,
+				CF4183AA2B597E1E00B6C38D /* Blair_App.entitlements */,
+				CF4183AB2B597E1E00B6C38D /* Preview Content */,
+			);
+			path = "Blair App";
+			sourceTree = "<group>";
+		};
+		CF4183AB2B597E1E00B6C38D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF4183AC2B597E1E00B6C38D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF4183B52B597E1E00B6C38D /* Blair AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF4183B62B597E1E00B6C38D /* Blair_AppTests.swift */,
+			);
+			path = "Blair AppTests";
+			sourceTree = "<group>";
+		};
+		CF4183BF2B597E1E00B6C38D /* Blair AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF4183C02B597E1E00B6C38D /* Blair_AppUITests.swift */,
+				CF4183C22B597E1E00B6C38D /* Blair_AppUITestsLaunchTests.swift */,
+			);
+			path = "Blair AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4183A02B597E1C00B6C38D /* Blair App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4183C62B597E1E00B6C38D /* Build configuration list for PBXNativeTarget "Blair App" */;
+			buildPhases = (
+				CF41839D2B597E1C00B6C38D /* Sources */,
+				CF41839E2B597E1C00B6C38D /* Frameworks */,
+				CF41839F2B597E1C00B6C38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blair App";
+			productName = "Blair App";
+			productReference = CF4183A12B597E1C00B6C38D /* Blair App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF4183B12B597E1E00B6C38D /* Blair AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4183C92B597E1E00B6C38D /* Build configuration list for PBXNativeTarget "Blair AppTests" */;
+			buildPhases = (
+				CF4183AE2B597E1E00B6C38D /* Sources */,
+				CF4183AF2B597E1E00B6C38D /* Frameworks */,
+				CF4183B02B597E1E00B6C38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF4183B42B597E1E00B6C38D /* PBXTargetDependency */,
+			);
+			name = "Blair AppTests";
+			productName = "Blair AppTests";
+			productReference = CF4183B22B597E1E00B6C38D /* Blair AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF4183BB2B597E1E00B6C38D /* Blair AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4183CC2B597E1E00B6C38D /* Build configuration list for PBXNativeTarget "Blair AppUITests" */;
+			buildPhases = (
+				CF4183B82B597E1E00B6C38D /* Sources */,
+				CF4183B92B597E1E00B6C38D /* Frameworks */,
+				CF4183BA2B597E1E00B6C38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF4183BE2B597E1E00B6C38D /* PBXTargetDependency */,
+			);
+			name = "Blair AppUITests";
+			productName = "Blair AppUITests";
+			productReference = CF4183BC2B597E1E00B6C38D /* Blair AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4183992B597E1C00B6C38D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CF4183A02B597E1C00B6C38D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CF4183B12B597E1E00B6C38D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CF4183A02B597E1C00B6C38D;
+					};
+					CF4183BB2B597E1E00B6C38D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CF4183A02B597E1C00B6C38D;
+					};
+				};
+			};
+			buildConfigurationList = CF41839C2B597E1C00B6C38D /* Build configuration list for PBXProject "Blair App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF4183982B597E1C00B6C38D;
+			productRefGroup = CF4183A22B597E1C00B6C38D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4183A02B597E1C00B6C38D /* Blair App */,
+				CF4183B12B597E1E00B6C38D /* Blair AppTests */,
+				CF4183BB2B597E1E00B6C38D /* Blair AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF41839F2B597E1C00B6C38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4183AD2B597E1E00B6C38D /* Preview Assets.xcassets in Resources */,
+				CF4183A92B597E1E00B6C38D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4183B02B597E1E00B6C38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4183BA2B597E1E00B6C38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF41839D2B597E1C00B6C38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4183A72B597E1C00B6C38D /* ContentView.swift in Sources */,
+				CF4183A52B597E1C00B6C38D /* Blair_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4183AE2B597E1E00B6C38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4183B72B597E1E00B6C38D /* Blair_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4183B82B597E1E00B6C38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4183C12B597E1E00B6C38D /* Blair_AppUITests.swift in Sources */,
+				CF4183C32B597E1E00B6C38D /* Blair_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF4183B42B597E1E00B6C38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF4183A02B597E1C00B6C38D /* Blair App */;
+			targetProxy = CF4183B32B597E1E00B6C38D /* PBXContainerItemProxy */;
+		};
+		CF4183BE2B597E1E00B6C38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF4183A02B597E1C00B6C38D /* Blair App */;
+			targetProxy = CF4183BD2B597E1E00B6C38D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF4183C42B597E1E00B6C38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF4183C52B597E1E00B6C38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CF4183C72B597E1E00B6C38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Blair App/Blair_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blair App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Montgomery.Blair-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF4183C82B597E1E00B6C38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Blair App/Blair_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blair App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Montgomery.Blair-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF4183CA2B597E1E00B6C38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Montgomery.Blair-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blair App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blair App";
+			};
+			name = Debug;
+		};
+		CF4183CB2B597E1E00B6C38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Montgomery.Blair-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blair App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blair App";
+			};
+			name = Release;
+		};
+		CF4183CD2B597E1E00B6C38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Montgomery.Blair-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blair App";
+			};
+			name = Debug;
+		};
+		CF4183CE2B597E1E00B6C38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Montgomery.Blair-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blair App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF41839C2B597E1C00B6C38D /* Build configuration list for PBXProject "Blair App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4183C42B597E1E00B6C38D /* Debug */,
+				CF4183C52B597E1E00B6C38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4183C62B597E1E00B6C38D /* Build configuration list for PBXNativeTarget "Blair App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4183C72B597E1E00B6C38D /* Debug */,
+				CF4183C82B597E1E00B6C38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4183C92B597E1E00B6C38D /* Build configuration list for PBXNativeTarget "Blair AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4183CA2B597E1E00B6C38D /* Debug */,
+				CF4183CB2B597E1E00B6C38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4183CC2B597E1E00B6C38D /* Build configuration list for PBXNativeTarget "Blair AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4183CD2B597E1E00B6C38D /* Debug */,
+				CF4183CE2B597E1E00B6C38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF4183992B597E1C00B6C38D /* Project object */;
+}
